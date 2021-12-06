@@ -1,0 +1,64 @@
+{% set work = site.data['work.json'] %}
+
+<section class="work" id="work">
+  <div class="work-header">
+    <div class="work-header__inner">
+      <div class="section-title">
+        <h1>Work</h1>
+      </div>
+      <p>I tend to focus on design, front-end development and data vis, but I can also report, write and make a mean mapo tofu!</p>
+    </div>
+    {# <div class="work-header-options">
+      <div class="work-header-options-sort">
+        <label>Order</label>
+        <button class="sort" id="sort-fav" data-sort="work__project-title">
+          Featured
+        </button>
+        <button class="sort" id="sort-chron" data-sort="date">
+          Chronological
+        </button>
+      </div>
+    </div> #}
+  </div>
+  <ul class="work__project-list list" id="projectList">
+    {% for project in work.featured %}
+      <li class="work__project-list-item" data-order="{{ loop.index }}"href={{ project.link }} target="_blank">
+
+      {% if project.externalLink == true %}
+        <a class="work__project-link external" href={{ project.link }} onclick="captureOutboundLink({{ project.link }}); return false;" target="_blank">
+      {% else %}
+        <a class="work__project-link" href={{ project.link }}>
+      {% endif %}
+
+          <img class="work__project-image" src={{ puppy.staticUrl(project.imageUrl) }} alt="{{ project.alt }}"/>
+          <h2 class="work__project-title">{{ project.title }}</h2>
+          <p class="work__project-description">{{ project.description }}</p>
+          <div class="work__project-metadata metadata">
+            <div class="work__project-tags">
+
+            {% for typeTag in project.tags.type %}
+              <span>{{ typeTag }}</span>
+            {% endfor %}
+
+            </div>
+            <div class="work__project-date">
+              <span class="date">{{ project.date }}</span>
+            </div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <svg id="duotone">
+    <defs>
+      <filter id="duotone-filter">
+        <feColorMatrix
+          type="matrix"
+          values="1  0  0  0  0
+                  1  0  0  0  0
+                  1  0  0  0  0
+                  0  0  0  1  0"/>
+      </filter>    
+    </defs>
+  </svg>
+</section>

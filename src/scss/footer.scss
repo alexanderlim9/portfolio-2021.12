@@ -1,0 +1,29 @@
+footer {
+  height: $footer-height;
+
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    padding: 0 $block-padding-xs;
+    position: relative;
+    width: 100%;
+
+    @media (min-width: $bp-sm) {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 $block-padding-sm;
+    }
+
+    @media (min-width: $bp-md) {
+      padding: 0 $block-padding-md;
+    }
+
+    *,
+    a {
+      font-family: $ff-sans;
+      font-size: 0.9rem;
+      margin-bottom: 0;
+    }
+  }
+}

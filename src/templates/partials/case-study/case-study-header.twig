@@ -1,0 +1,15 @@
+<div class="case-study-header">
+  <h1>{{ project.title }}</h1>
+  <ul class="case-study-header__list">
+    {% for item in project.details %}
+    <li class="case-study-header__list-item">
+      <label>{{ item.label }}</label>
+      <ul>
+      {% for content in item.content %}
+        <li>{{ content }}</li>
+      {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

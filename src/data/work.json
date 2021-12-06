@@ -1,0 +1,126 @@
+{
+  "featured": [
+    {
+      "id": "our-truth",
+      "title": "Our Truth, Tā Mātou Pono",
+      "description": "Challenging the history of New Zealand.",
+      "tags": {
+        "type": ["Front-end dev", "Design", "Illustration"],
+        "tools": []
+      },
+      "date": "Feb 21",
+      "imageUrl": "img/projects/ourtruth.jpg",
+      "alt": "Various NYT covid tracking pages",
+      "link": "https://interactives.stuff.co.nz/2021/02/our-truth-history-aotearoa-new-zealand/",
+      "externalLink": true
+    },
+    {
+      "id": "nyt",
+      "title": "Coronavirus Tracking",
+      "description": "Documenting the spread of covid in the U.S.",
+      "tags": {
+        "type": ["Data reporting", "Web scraping"],
+        "tools": []
+      },
+      "date": "Dec 20",
+      "imageUrl": "img/projects/covidtracking.jpg",
+      "alt": "Various NYT covid tracking pages",
+      "link": "/covid-tracking",
+      "externalLink": false
+    },
+    {
+      "id": "parkland",
+      "title": "Since Parkland",
+      "description": "Communicating the scale of America’s gun violence epidemic.",
+      "tags": {
+        "type": ["Full-stack dev", "Design"],
+        "tools": ["Jekyll", "Airtable"]
+      },
+      "date": "Feb 19",
+      "imageUrl": "img/projects/parkland.jpg",
+      "alt": "Photos of children lost to gun violence on a dark background with the title 'since parkland'",
+      "link": "https://2019.alexanderlim.io/projects/since-parkland/",
+      "externalLink": true
+    },
+    
+    {
+      "id": "print",
+      "title": "Print & Information Design",
+      "description": "Building visual systems to span books, bags and billboards.",
+      "tags": {
+        "type": ["Print design", "Art direction"],
+        "tools": ["Adobe Creative Suite"]
+      },
+      "date": "May 20",
+      "imageUrl": "img/projects/print.jpg",
+      "alt": "Book spread displays two charts on media trust data",
+      "link": "/print-design",
+      "externalLink": false
+    },
+    {
+      "id": "arnold",
+      "title": "Arnold Ventures",
+      "description": "Putting philanthropy in context through data.",
+      "tags": {
+        "type": ["Data vis", "Design", "Front-end dev"],
+        "tools": ["D3.js"]
+      },
+      "date": "Jun 19",
+      "imageUrl": "img/projects/arnold.jpg",
+      "alt": "Data visualization shows grants as blue circles of varying sizes with accompanying information",
+      "link": "https://2019.alexanderlim.io/projects/arnold-ventures/",
+      "externalLink": true
+    },
+    {
+      "id": "panama",
+      "title": "Panama Up Close",
+      "description": "Stories from Panama reported by student journalists.",
+      "tags": {
+        "type": ["Design", "Front-end dev"],
+        "tools": ["CSS"]
+      },
+      "date": "May 20",
+      "imageUrl": "img/projects/panama.jpg",
+      "alt": "Small tropical bird in a rainforest with the title 'panama up close'",
+      "link": "https://panamaupclose.com/",
+      "externalLink": true
+    },
+    {
+      "title": "The Valedictorians Project",
+      "description": "What became of Boston’s brightest.",
+      "tags": {
+        "type": ["Reporting/Research"]
+      },
+      "date": "Jan 19",
+      "imageUrl": "img/projects/valedictorians.jpg",
+      "alt": "High school valedictorian yearbook photos",
+      "link": "https://apps.bostonglobe.com/magazine/graphics/2019/01/17/valedictorians/",
+      "externalLink": true
+    },
+    {
+      "title": "The Pain We Endure",
+      "description": "A father and daughter live in the shadow of addiction.",
+      "tags": {
+        "type": ["Design", "Data vis", "Front-end dev"]
+      },
+      "date": "Dec 18",
+      "imageUrl": "img/projects/opioidcrisis.jpg",
+      "alt": "A toddler girl looks out the window from a dark room",
+      "link": "https://alexanderlim9.github.io/opioid-crisis/",
+      "externalLink": true
+    },
+    {
+      "title": "Concerts - Digital Garden",
+      "description": "Saving past concerts for rainy days.",
+      "tags": {
+        "type": ["Full-stack dev", "Design"]
+      },
+      "date": "Jul 19",
+      "imageUrl": "img/projects/concerts.jpg",
+      "alt": "Music artist names over a concert performance with bright red lights",
+      "link": "https://github.com/alexanderlim9/concerts#readme",
+      "externalLink": true
+    }
+  ],
+  "viewAllLink": "https://alexanderlim-2019.netlify.app/projects/"
+}

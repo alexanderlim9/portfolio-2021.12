@@ -1,0 +1,60 @@
+---
+title: Alex Lim
+---
+
+{% extends "@templates/layouts/base.twig" %}
+
+{% set config = site.data['menu.json'] %}
+
+{% block meta %}
+<meta property='og:title' content='Print & Information Design'/>
+<meta property='og:image' content='/static/img/print-social-card.png'/>
+<meta property='og:description' content='How I designed &ldquo;News for the People.&rdquo;'/>
+<meta property='og:url' content='https://alexanderlim.io/print-design'/>
+{% endblock %}
+
+{% set project = {
+  'title' : 'Print & Information Design',
+  'details': [
+    {
+      'label': 'Affiliation',
+      'content': ['Academic project', 'September 19 - May 20']
+    },
+    {
+      'label': 'Focus',
+      'content': ['Print design', 'Art direction']
+    },
+    {
+      'label': 'Tools',
+      'content': ['InDesign', 'Illustrator', 'Photoshop']
+    }
+  ]
+}
+%}
+
+{% block content %}
+
+<section class="caseStudy">
+  {% include '@templates/partials/case-study/case-study-header.twig' with {'title': 'Coronavirus Tracking'} %}
+
+  <div class="caseStudy__intro">
+    <div class="caseStudy__intro-text">
+      <h3>Building a book, design system and campaign.</h3>
+      <p>I designed a social change campaign for my Graphic Design 2 class and, being a budding journalist, chose to focus on media literacy and trust. As I began to explore visual concepts and applications of the project, I realized that I cared far more for the campaign strategy and design process rather than the end product itself.</p>
+      <p>With my professor’s blessing, I pivoted from executing a campaign to, instead, laying the groundwork for an expanding design system — documenting my iterations, decisions and potential future directions. The end result is this process book, the contents of which I wrote and designed, featuring photography by my friend Victoria. It was a wonderful project to work on and to wrap up my undergrad design career. And it makes a great addition to my bookshelf!</p>
+    </div>
+  </div>
+
+  <div class="caseStudy__photo-grid">
+
+    {% for num in range(1, 29) %}
+      <img src={{ '/static/img/print-design/pb-spread' ~ num ~ '.jpg' }} />
+    {% endfor %}
+
+  </div>
+  <div class="caseStudy__nav">
+    <a href="/#work">&larr; Back to featured work</a>
+  </div>
+</section>
+
+{% endblock %}

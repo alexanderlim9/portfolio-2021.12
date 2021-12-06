@@ -1,0 +1,17 @@
+.case-study-header {
+  border-bottom: solid 3px $c-black;
+}
+
+.case-study-header__list {
+  @include three-column-grid;
+  font-family: $ff-sans;
+  line-height: 1.3rem;
+
+  @media (min-width: $bp-md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.case-study-header__list-item {
+  margin-bottom: 18px;
+}

@@ -1,0 +1,24 @@
+.placeholder {
+  font-family: $ff-sans;
+
+  h1 {
+    font-weight: 400;
+  }
+
+  p,
+  a {
+    font-family: inherit;
+
+    @media (min-width: $bp-md) {
+      font-size: 1.2rem;
+    }
+  }
+
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      color: $c-red;
+    }
+  }
+}

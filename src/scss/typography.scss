@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/static/fonts/NeueMachina-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/static/fonts/NeueMachina-Ultrabold.woff2') format('woff2');
+}
+
+@mixin type-h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  margin-bottom: 1.5rem;
+
+  &.big {
+    @media (min-width: $bp-lg) {
+      font-size: 2.75rem;
+      line-height: 3.25rem;
+    }
+  }
+
+  @media (min-width: $bp-sm) {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  @media (min-width: $bp-xl) {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
+
+@mixin type-h2 {
+  font-size: 1.25rem;
+  line-height: 1.7rem;
+  margin-bottom: 1rem;
+
+  @media (min-width: $bp-lg) {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+}
+
+@mixin type-h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+
+  @media (min-width: $bp-xs) {
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+  }
+}
+
+html,
+body,
+a {
+  font-family: $ff-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  @include type-h1;
+}
+
+h2 {
+  @include type-h2;
+}
+
+h3 {
+  @include type-h3;
+}
+
+p {
+  line-height: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+b {
+  font-weight: 600;
+}
+
+.metadata,
+.sans {
+  font-family: $ff-sans;
+}
+
+a {
+  color: $c-black;
+  text-decoration: none;
+}
+
+label {
+  display: block;
+  font-family: $ff-sans;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

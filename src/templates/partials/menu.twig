@@ -1,0 +1,51 @@
+<img class="menu-photo" src={{ puppy.staticUrl('img/thumbnail.jpg') }} alt="Me smiling on my college campus"/>
+
+<div class="menu-bar">
+  <a class="site-title" href="/">{{ page.title }}</a>
+  
+  <button class="menu-button" aria-label="Open menu">
+    <div class="menu-button__icon">—</div>
+  </button>
+</div>
+
+{% if config.header_links|length %}
+<nav class="menu-nav">
+
+  <ul class="menu-nav__list">
+    {% for link in config.header_links %}
+    <li class="menu-nav__list-item">
+
+      {% if link.external == true %}
+        <a class="menu-nav__list-link" href="{{ link.url }}" onclick="captureOutboundLink({{ link.url }}); return false;" target="_blank">
+          {{ link.label }}
+        </a>
+      {% else %}
+        <a class="menu-nav__list-link" href="{{ link.url }}">
+          {{ link.label }}
+        </a>
+      {% endif %}
+
+    </li>
+    {% endfor %}
+    <li class="menu-nav__list-item intro__social">
+      <ul>
+        <li>
+          <a href="https://twitter.com/journalims" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/alexander-lim/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/alexanderlim9" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+{% endif %}

@@ -1,0 +1,85 @@
+---
+title: Alex Lim
+---
+
+
+{% extends "@templates/layouts/base.twig" %}
+
+{% set config = site.data['menu.json'] %}
+
+{% block meta %}
+<meta property='og:title' content='Coronavirus Tracking'/>
+<meta property='og:image' content='/static/img/tracking-social-card.png'/>
+<meta property='og:description' content='Documenting the spread of covid in the U.S.'/>
+<meta property='og:url' content='https://alexanderlim.io/covid-tracking'/>
+{% endblock %}
+
+{% set project = {
+  'title': 'Coronavirus Tracking',
+  'details': [
+    {
+      'label': 'Affiliation',
+      'content': ['The New York Times', 'June 20 - Dec 20']
+    },
+    {
+      'label': 'Roles',
+      'content': ['Data reporting', 'Web scraping']
+    },
+    {
+      'label': 'Tools',
+      'content': ['(plenty of) Google sheets', 'Node.js']
+    }
+  ],
+  'trackers': [
+    {
+      'text': 'Vaccine Distribution',
+      'url': 'https://www.nytimes.com/interactive/2020/us/covid-19-vaccine-doses.html'
+    },
+    {
+      'text': 'Colleges and Universities',
+      'url': 'https://www.nytimes.com/interactive/2020/us/covid-college-cases-tracker.html'
+    },
+    {
+      'text': 'Nursing Homes',
+      'url': 'https://www.nytimes.com/interactive/2020/us/coronavirus-nursing-homes.html'
+    },
+    {
+      'text': 'U.S. Latest Map and Case Count',
+      'url': 'https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html'
+    }
+  ]
+}
+%}
+
+{% block content %}
+
+<section class="caseStudy covid-tracking">
+  {% include '@templates/partials/case-study/case-study-header.twig' with {'title': 'Coronavirus Tracking'} %}
+
+  <div class="caseStudy__intro">
+    <div class="caseStudy__links">
+      <label>Trackers</label>
+      <ul>
+
+      {% for link in project.trackers %}
+        <li>
+          <a href="{{ link.url }}" target="_blank">{{ link.text }}</a>
+        </li>
+      {% endfor %}
+
+      </ul>
+    </div>
+    <div class="caseStudy__intro-text">
+      <img src={{ puppy.staticUrl('img/covid-tracking/tracking-collage.png') }} />
+      <h3>Filling a gap in our understanding of the pandemic.</h3>
+      <p>My work focused on tracking coronavirus clusters in colleges, nursing homes and other hot spots. I also worked on the covid data acquisition team part-time, mostly fixing the 300+ web scrapers that feed the Times' U.S. covid database using Node.js. Otherwise, I worked on a team of about two dozen journalists fact-checking data from scraped state long-term care reports or collecting the data myself through communication with state and local health departments. We updated data on 1,800+ colleges one row at a time, every day. For some schools, this meant checking public covid dashboards, for others it meant emails, phone calls and public records requests.</p>
+      <p>Adapting to the evolving nature of the pandemic, I also spearheaded some of our workflow improvements including the design of the system dozens of reporters now use to organize thousands of source files across all of cluster tracking efforts. These projects fill a huge gap in our understanding of the pandemic that would otherwise go unchecked, and our data are used widely by researchers and others to inform public health decisions.</p>
+    </div>
+  </div>
+
+  <div class="caseStudy__nav">
+    <a href="/#work">&larr; Back to featured work</a>
+  </div>
+</section>
+
+{% endblock %}

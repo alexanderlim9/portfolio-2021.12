@@ -1,0 +1,31 @@
+.error-404 {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  min-height: calc(100vh - #{$menu-height} - #{$footer-height});
+  padding: 0 $block-padding-xs;
+}
+
+.error-text {
+  margin-bottom: 3rem;
+
+  h1 {
+    margin-bottom: 0;
+    margin-top: 3rem;
+  }
+}
+
+.error-redirect {
+  font-size: 1.25rem;
+
+  &:hover {
+    color: $c-red;
+  }
+}
+
+.error-asciiArt {
+  font-family: $ff-sans;
+  font-size: 2rem;
+  margin-top: 5rem;
+}

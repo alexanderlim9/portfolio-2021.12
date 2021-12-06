@@ -1,0 +1,43 @@
+/* breakpoints ----- */
+$bp-xs: 450px;
+$bp-sm: 600px;
+$bp-md: 760px;
+$bp-lg: 900px;
+$bp-xl: 1250px;
+
+/* colors ----- */
+$c-white: #ffffff;
+$c-black: #000000;
+$c-red: #ff5620;
+$c-gray25: #bfbfbf;
+$c-gray50: #7f7f7f;
+$c-gray: #b0c4de; //lightsteelblue
+
+$block-padding-xs: 20px;
+$block-padding-sm: 30px;
+$block-padding-md: 40px;
+
+$section-spacing-xs: 10vh;
+$section-spacing-md: 30vh;
+
+$menu-height: 50px;
+$menu-width: 200px;
+$footer-height: 60px;
+$container-max-width: 1080px;
+
+$ff-serif: 'Noort', Georgia, serif;
+$ff-sans: 'Neue Machina', Helvetica, Arial, sans-serif;
+
+@mixin three-column-grid {
+  column-gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media (min-width: $bp-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $bp-xl) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

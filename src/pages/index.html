@@ -1,0 +1,23 @@
+---
+title: Alex Lim
+---
+
+{% extends "@templates/layouts/base.twig" %}
+
+{% set config = site.data['menu.json'] %}
+{% set resume = site.data['resume.json'] %}
+
+{% block meta %}
+<meta property='og:title' content='Alex Lim | Portfolio'/>
+<meta property='og:image' content='/static/img/social-card.png'/>
+<meta property='og:description' content='New York&ndash;based designer-developer working in the intersection of tech and journalism.'/>
+<meta property='og:url' content='https://alexanderlim.io'/>
+{% endblock %}
+
+{% block content %}
+
+{% include '@templates/partials/intro.twig' %}
+{% include '@templates/partials/work.twig' %}
+{% include '@templates/partials/about.twig' %}
+
+{% endblock %}

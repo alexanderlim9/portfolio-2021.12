@@ -1,0 +1,46 @@
+[  
+  {
+    "employer": "Stuff.co.nz",
+    "title": "Interactive Designer",
+    "timePeriod": "January 21 - Present",
+    "description": ""
+  },
+  {
+    "employer": "The New York Times",
+    "title": "News Assistant",
+    "timePeriod": "August 20 - December 20",
+    "title2": "Freelance Data Reporter",
+    "timePeriod2": "June 20 - August 20",
+    "description": "Track coronavirus clusters in nursing homes, colleges and other hot spots through data collection and reporting. Develop and maintain 300+ web scrapers to acquire data on cases and deaths in the U.S. at the state and county level using Node.js."
+  },
+  {
+    "employer": "NU Co-Lab for Data Impact",
+    "title": "Research Assistant",
+    "timePeriod": "September 19 - May 20",
+    "description": "Designed and built Wordpress sites for the School of Journalism including an online magazine and the C+J Symposium website. Explored conceptual design and execution of interactive data journalism projects."
+  },
+  {
+    "employer": "Upstatement",
+    "title": "Engineering Apprentice",
+    "timePeriod": "January 19 - June 19",
+    "description": "Collaborated with newsrooms including The Trace and Arnold Ventures to explore narrative approaches to data presentation. Worked in all steps of the design process from research to full-stack development involving D3.js and various APIs."
+  },
+  {
+    "employer": "Two Six Labs",
+    "title": "Data Visualization Co-op",
+    "timePeriod": "January 18 - June 18",
+    "description": "Built visualization dashboard for a national cybersecurity program using D3.js. Worked as the sole front-end developer for a team of 10 data scientists, visualizing network traffic to aid analysis."
+  },
+  {
+    "employer": "Scout Studio",
+    "title": "Designer-Developer",
+    "timePeriod": "September 16 - December 17 (semesterly)",
+    "description": "Developed onboarding experience from wireframes for media startup mobile app using Ionic. Worked with Northeastern venture accelerator to design annual impact report booklet and expand visual identity through marketing collateral."
+  },
+  {
+    "employer": "Liberty Mutual Insurance",
+    "title": "Software Development Co-op ",
+    "timePeriod": "January 17 - June 17",
+    "description": "Improved user experience of internal tools through UI/UX design and Kibana plugin development in AngularJS and React. Practiced agile software development."
+  }
+]

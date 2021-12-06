@@ -1,0 +1,65 @@
+@import 'variables';
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgb(176, 196, 222, 0.5); //bluegray 0.5 opacity
+}
+
+a,
+a:hover {
+  transition: 0.1s;
+}
+
+.intro__buttons > button > a {
+  transition: 0s;
+}
+
+.site-content,
+footer {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 0 20px;
+  width: 100%;
+
+  section,
+  .footer-inner {
+    max-width: $container-max-width;
+  }
+
+  @media (min-width: $bp-md) {
+    padding: 0 40px;
+  }
+
+  @media (min-width: $bp-lg) {
+    margin-left: $menu-width;
+    width: calc(100% - #{$menu-width});
+  }
+}
+
+.site-content {
+  @media (max-width: $bp-lg) {
+    margin-top: $menu-height;
+  }
+}
+
+.section-title {
+  background-color: $c-black;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  height: 1rem;
+  margin-bottom: 1rem;
+
+  h1 {
+    background-color: $c-white;
+    display: inline;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    padding-right: 10px;
+  }
+}

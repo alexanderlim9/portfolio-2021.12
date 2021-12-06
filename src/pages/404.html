@@ -1,0 +1,28 @@
+---
+title: Alex Lim
+---
+
+{% extends "@templates/layouts/base.twig" %}
+
+{% set config = site.data['menu.json'] %}
+
+{% block content %}
+
+<div class="error-404">
+  <div class="error-text">
+    <h1 class="big">Ai yah!</h1>
+    <h2>Sorry, that page doesn't exist.</h2>
+    <a class="error-redirect sans" href="/">Return home &rarr;</a>
+  </div>
+  <pre class="error-asciiArt">
+|-----------|
+|       404        |
+|     ERROR      |
+|-----------|
+(\__/) ||
+(•ㅅ•) ||
+/ 　 づ
+    </pre>
+</div>
+
+{% endblock %}

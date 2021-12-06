@@ -1,0 +1,17 @@
+// Path to public dir
+$publicPath: '/';
+
+// Project styles go here
+@import 'reset';
+@import 'variables';
+@import 'global';
+@import 'typography';
+@import 'intro';
+@import 'work';
+@import 'about';
+@import 'placeholder';
+@import 'menu';
+@import 'footer';
+@import '404';
+@import 'case-study/case-study';
+@import 'case-study/case-study-header';

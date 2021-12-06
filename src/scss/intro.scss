@@ -1,0 +1,69 @@
+.intro {
+  margin-top: 30px;
+
+  @media (min-width: $bp-sm) {
+    margin-top: 60px;
+  }
+
+  @media (min-width: $bp-xl) {
+    margin-top: 50px;
+  }
+}
+
+.intro__upper {
+  display: flex;
+  flex-direction: column-reverse;
+
+  .intro__copy {
+    @include type-h1;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    width: 100%;
+
+    @media (min-width: $bp-lg) {
+      margin: 0px;
+    }
+  }
+
+  #manicule {
+    padding: 0 1rem;
+  }
+
+  .small-caps {
+    color: $c-red;
+    font-variant: small-caps;
+  }
+
+  .intro__photo {
+    height: 40vh;
+    object-fit: cover;
+    width: 100%;
+
+    @media (min-width: $bp-lg) {
+      display: none;
+    }
+  }
+}
+
+.intro__social {
+  margin: 1rem 0;
+
+  li {
+    display: inline;
+    margin-right: 0.75rem;
+  }
+
+  a {
+    color: $c-red;
+    font-size: 1.25rem;
+
+    &:hover {
+      color: $c-gray;
+    }
+  }
+}
+
+hr {
+  border: solid 2px $c-black;
+  margin: 1.5rem 0 1.8rem;
+}

@@ -1,0 +1,121 @@
+.about {
+  min-height: calc(100vh - #{$menu-height} - #{$footer-height});
+  margin-bottom: 50px;
+
+  @media (min-width: $bp-md) {
+    min-height: calc(100vh - #{$footer-height});
+  }
+}
+
+.about__bio {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 50px;
+
+  @media (min-width: $bp-sm) {
+    column-gap: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.about__bio-content {
+  p {
+    font-size: 0.9rem;
+    hyphens: auto;
+    line-height: 1.4rem;
+
+    &:first-of-type:first-letter {
+      color: $c-red;
+      float: left;
+      font-family: $ff-sans;
+      font-size: 2.7rem;
+      font-weight: 600;
+      line-height: 2.7rem;
+      padding-top: 5px;
+      padding-right: 12px;
+      padding-left: 12px;
+    }
+  }
+}
+
+.about__bio-photo {
+  margin-bottom: 30px;
+  min-height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about__resume-list {
+  @include three-column-grid;
+  margin-top: 30px;
+
+  @media (min-width: $bp-sm) {
+    margin-top: 50px;
+  }
+}
+
+.about__resume-list-item {
+  margin-bottom: 30px;
+
+  @media (min-width: $bp-md) {
+    margin-bottom: 40px;
+  }
+}
+
+.about__resume-employer,
+.about__resume-title {
+  font-family: $ff-sans;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin: 0;
+}
+
+.about__resume-timePeriod {
+  display: block;
+  font-family: $ff-sans;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-bottom: 15px;
+  margin-top: 2px;
+
+  @media (min-width: $bp-md) {
+    margin-bottom: 20px;
+  }
+}
+
+.about__resume-description {
+  font-size: 0.85rem;
+  hyphens: auto;
+  line-height: 1.3rem;
+}
+
+.about__resume-link {
+  font-family: $ff-sans;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  &::before {
+    color: $c-red;
+    content: '\2022';
+    font-feature-settings: 'case';
+    padding-right: 6px;
+  }
+
+  &::after {
+    content: ' \2192';
+    display: inline-block;
+    margin-left: 2px;
+    transition: color, transform 0.25s ease-out;
+  }
+
+  &:hover {
+    color: $c-red;
+  }
+
+  &:hover::after {
+    transform: translateX(10px);
+    transition: color, transform 0.25s ease-out;
+  }
+}
