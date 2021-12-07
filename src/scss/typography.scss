@@ -13,6 +13,7 @@
 }
 
 @mixin type-h1 {
+  color: $c-black;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.8rem;
@@ -48,6 +49,7 @@
 }
 
 @mixin type-h3 {
+  color: $c-black;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.4rem;
@@ -82,6 +84,7 @@ h3 {
 }
 
 p {
+  color: $c-black;
   line-height: 1.4rem;
   margin-bottom: 0.75rem;
 }

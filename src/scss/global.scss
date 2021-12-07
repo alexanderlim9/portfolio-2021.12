@@ -43,6 +43,8 @@ footer {
 }
 
 .site-content {
+  background-color: $c-white;
+
   @media (max-width: $bp-lg) {
     margin-top: $menu-height;
   }
