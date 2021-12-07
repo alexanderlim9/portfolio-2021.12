@@ -16,6 +16,7 @@
 
   .intro__copy {
     @include type-h1;
+    font-style: italic;
     margin-bottom: 0px;
     margin-top: 25px;
     width: 100%;
@@ -26,12 +27,11 @@
   }
 
   #manicule {
-    padding: 0 1rem;
-  }
+    padding: 0 7px;
 
-  .small-caps {
-    color: $c-red;
-    font-variant: small-caps;
+    @media (min-width: $bp-lg) {
+      padding: 0 10px;
+    }
   }
 
   .intro__photo {
