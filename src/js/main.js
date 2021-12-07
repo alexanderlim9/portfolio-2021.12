@@ -23,8 +23,8 @@ function convertToDueTone(color1, color2) {
   matrix.setAttribute('values', value.join(' '));
 }
 
-// blue-gray
-convertToDueTone([255, 255, 255], [176, 196, 222]);
+// green-gray
+convertToDueTone([238, 238, 238], [132, 142, 140]);
 
 // LIST.JS
 const options = {
