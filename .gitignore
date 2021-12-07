@@ -1,0 +1,12 @@
+/node_modules
+/dist
+npm-debug.log
+.DS_Store
+*.sublime-*
+
+# Local Netlify folder
+.netlify
+
+src/scss/legacy.scss
+src/scss/tutorial.scss
+src/pages/tutorial.html

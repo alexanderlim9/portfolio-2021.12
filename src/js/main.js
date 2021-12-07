@@ -1,4 +1,3 @@
-import 'modernizr';
 import moment from 'moment';
 import List from 'list.js';
 
