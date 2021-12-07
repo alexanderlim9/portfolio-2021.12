@@ -1,6 +1,90 @@
 {
   "featured": [
     {
+      "id": "docs-for-vax",
+      "title": "We, the 6535 signed",
+      "description": "NZ Doctors stand up for vaccination.",
+      "tags": {
+        "type": ["Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "Oct 21",
+      "imageUrl": "img/projects/docsforvax.jpg",
+      "alt": "Collage of doctors' faces in the shape of New Zealand overlaid on a backdrop of hundreds of their names",
+      "link": "https://interactives.stuff.co.nz/2021/10/doctors-for-covid-vaccination/",
+      "externalLink": true
+    },
+    {
+      "id": "akl-lockdown",
+      "title": "The tale of two pandemics",
+      "description": "Auckland, lockdowns and Delta.",
+      "tags": {
+        "type": ["Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "Sep 21",
+      "imageUrl": "img/projects/akllockdown.jpg",
+      "alt": "Auckland skyline at sunset with an empty freeway in the foreground",
+      "link": "https://interactives.stuff.co.nz/2021/09/covid-delta-lockdown-auckland/",
+      "externalLink": true
+    },
+    {
+      "id": "tokyo-uniforms",
+      "title": "Inside the sketchbooks of NZ's budding fashion designers",
+      "description": "A pre-Tokyo dive into NZ's olympic uniforms.",
+      "tags": {
+        "type": ["Reporting", "Production", "Design"],
+        "tools": []
+      },
+      "date": "Jul 21",
+      "imageUrl": "img/projects/tokyouniforms.jpg",
+      "alt": "Sketches of potential NZ olympic uniforms for Tokyo 2020",
+      "link": "https://interactives.stuff.co.nz/2021/07/golden-opportunity-nz-olympic-uniforms/",
+      "externalLink": true
+    },
+    {
+      "id": "oap",
+      "title": "Once a Panther",
+      "description": "Podcast landing page, context and history.",
+      "tags": {
+        "type": ["Front-end dev", "Design", "Identity"],
+        "tools": []
+      },
+      "date": "Jun 21",
+      "imageUrl": "img/projects/oap.jpg",
+      "alt": "Once a Panther",
+      "link": "https://interactives.stuff.co.nz/2021/06/once-a-panther-activist-history-podcast/",
+      "externalLink": true
+    },
+    {
+      "id": "tlr",
+      "title": "The Long Read",
+      "description": "Homepage, identity and automating publishing workflows.",
+      "tags": {
+        "type": ["Full-stack dev", "Design", "Publishing", "Identity"],
+        "tools": []
+      },
+      "date": "Jun 21",
+      "imageUrl": "img/projects/thelongread.jpg",
+      "alt": "The Long Read",
+      "link": "https://interactives.stuff.co.nz/the-long-read-podcast/",
+      "externalLink": true
+    },
+    {
+      "id": "just-love",
+      "title": "Koia te aroha:  Ngā pāpā Māori",
+      "description": "Just love: Māori dads.",
+      "tags": {
+        "type": ["Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "Mar 21",
+      "imageUrl": "img/projects/justlove.jpg",
+      "alt": "Reweti Arapere carries his son Taupounamu on his shoulders",
+      "link": "https://interactives.stuff.co.nz/2021/03/maori-dads/",
+      "externalLink": true
+    },
+    {
       "id": "our-truth",
       "title": "Our Truth, Tā Mātou Pono",
       "description": "Challenging the history of New Zealand.",
@@ -27,22 +111,7 @@
       "alt": "Various NYT covid tracking pages",
       "link": "/covid-tracking",
       "externalLink": false
-    },
-    {
-      "id": "parkland",
-      "title": "Since Parkland",
-      "description": "Communicating the scale of America’s gun violence epidemic.",
-      "tags": {
-        "type": ["Full-stack dev", "Design"],
-        "tools": ["Jekyll", "Airtable"]
-      },
-      "date": "Feb 19",
-      "imageUrl": "img/projects/parkland.jpg",
-      "alt": "Photos of children lost to gun violence on a dark background with the title 'since parkland'",
-      "link": "https://2019.alexanderlim.io/projects/since-parkland/",
-      "externalLink": true
-    },
-    
+    },    
     {
       "id": "print",
       "title": "Print & Information Design",
@@ -58,55 +127,17 @@
       "externalLink": false
     },
     {
-      "id": "arnold",
-      "title": "Arnold Ventures",
-      "description": "Putting philanthropy in context through data.",
-      "tags": {
-        "type": ["Data vis", "Design", "Front-end dev"],
-        "tools": ["D3.js"]
-      },
-      "date": "Jun 19",
-      "imageUrl": "img/projects/arnold.jpg",
-      "alt": "Data visualization shows grants as blue circles of varying sizes with accompanying information",
-      "link": "https://2019.alexanderlim.io/projects/arnold-ventures/",
-      "externalLink": true
-    },
-    {
       "id": "panama",
       "title": "Panama Up Close",
       "description": "Stories from Panama reported by student journalists.",
       "tags": {
-        "type": ["Design", "Front-end dev"],
+        "type": ["Front-end dev", "Design"],
         "tools": ["CSS"]
       },
       "date": "May 20",
       "imageUrl": "img/projects/panama.jpg",
       "alt": "Small tropical bird in a rainforest with the title 'panama up close'",
       "link": "https://panamaupclose.com/",
-      "externalLink": true
-    },
-    {
-      "title": "The Valedictorians Project",
-      "description": "What became of Boston’s brightest.",
-      "tags": {
-        "type": ["Reporting/Research"]
-      },
-      "date": "Jan 19",
-      "imageUrl": "img/projects/valedictorians.jpg",
-      "alt": "High school valedictorian yearbook photos",
-      "link": "https://apps.bostonglobe.com/magazine/graphics/2019/01/17/valedictorians/",
-      "externalLink": true
-    },
-    {
-      "title": "The Pain We Endure",
-      "description": "A father and daughter live in the shadow of addiction.",
-      "tags": {
-        "type": ["Design", "Data vis", "Front-end dev"]
-      },
-      "date": "Dec 18",
-      "imageUrl": "img/projects/opioidcrisis.jpg",
-      "alt": "A toddler girl looks out the window from a dark room",
-      "link": "https://alexanderlim9.github.io/opioid-crisis/",
       "externalLink": true
     },
     {
@@ -119,6 +150,46 @@
       "imageUrl": "img/projects/concerts.jpg",
       "alt": "Music artist names over a concert performance with bright red lights",
       "link": "https://github.com/alexanderlim9/concerts#readme",
+      "externalLink": true
+    },
+    {
+      "id": "arnold",
+      "title": "Arnold Ventures",
+      "description": "Putting philanthropy in context through data.",
+      "tags": {
+        "type": ["Data viz", "Design", "Front-end dev"],
+        "tools": ["D3.js"]
+      },
+      "date": "Jun 19",
+      "imageUrl": "img/projects/arnold.jpg",
+      "alt": "Data visualization shows grants as blue circles of varying sizes with accompanying information",
+      "link": "https://2019.alexanderlim.io/projects/arnold-ventures/",
+      "externalLink": true
+    },
+    {
+      "id": "parkland",
+      "title": "Since Parkland",
+      "description": "Communicating the scale of America’s gun violence epidemic.",
+      "tags": {
+        "type": ["Full-stack dev", "Design"],
+        "tools": ["Jekyll", "Airtable"]
+      },
+      "date": "Feb 19",
+      "imageUrl": "img/projects/parkland.jpg",
+      "alt": "Photos of children lost to gun violence on a dark background with the title 'since parkland'",
+      "link": "https://2019.alexanderlim.io/projects/since-parkland/",
+      "externalLink": true
+    },
+    {
+      "title": "The Valedictorians Project",
+      "description": "What became of Boston’s brightest.",
+      "tags": {
+        "type": ["Reporting/Research"]
+      },
+      "date": "Jan 19",
+      "imageUrl": "img/projects/valedictorians.jpg",
+      "alt": "High school valedictorian yearbook photos",
+      "link": "https://apps.bostonglobe.com/magazine/graphics/2019/01/17/valedictorians/",
       "externalLink": true
     }
   ],
