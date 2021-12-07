@@ -17,6 +17,7 @@
   .intro__copy {
     @include type-h1;
     font-style: italic;
+    font-variant-ligatures: discretionary-ligatures;
     margin-bottom: 0px;
     margin-top: 25px;
     width: 100%;
