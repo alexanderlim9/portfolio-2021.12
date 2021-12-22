@@ -5,13 +5,11 @@
 View the site at [alexanderlim.io](https://alexanderlim.io/).
 ## About this project
 
-I built this site using [Puppy](https://github.com/Upstatement/puppy) 🐶, Upstatement's starter kit for [rapid prototyping](https://upstatement.com/blog/hello-puppy/). It's pretty simple, overall. It uses Twig for templating and takes care of build, browser, formatting and other environment settings that we love to deal with.
+Most of the work for this site was completed in 2020 using using [Puppy](https://github.com/Upstatement/puppy) 🐶, Upstatement's starter kit for [rapid prototyping](https://upstatement.com/blog/hello-puppy/). At the core, I wanted a simple, no-fuss, no-frills set up to get building quickly. It's a static site using [Twig](https://twig.symfony.com/) for templating and [Netlify](https://www.netlify.com/) for hosting.
 
-I love working on my portfolio, and it's evolved so much over the years — always serving as a playground for my design and dev chops while helping me reflect on my career and accomplishments. Yet, I have a tendency to blow it up and start over often (I think it's fun), but here's where it's at right now.
+In 2021, I've mainly applied a fresh coat of paint to the styles to reflect a more refined approach to colour and where my current tastes are at.
 
-My love for typography and printing influenced this design and influences much of my work in general. I think constraints imposed by print and digital design complement each other in lovely ways, and I tried to play with them a bit here.
-
-Finally, I'm working to detail more about the process behind my featured projects and rethinking how I want to utilize case studies. Check back for updates! 
+On my to do list still is adding more detail about the process behind some featured projects and rethinking how I want to utilise case studies. Check back for updates :)
 
 ---
 
@@ -25,10 +23,7 @@ I'm a big typography geek so choosing my portfolio typefaces was a big deal. I w
 
 - **[Neue Machina](https://pangrampangram.com/products/neue-machina?variant=14717504225322)** by [PangramPangram](https://pangrampangram.com/) and [Baugasm](http://baugasm.com/).
 
-  Neue Machina is a punchy sans serif with monospace qualities and a ton of character(s) ..haha. Quite frankly, there are too many lovely quirks to point out, so I'll just mention the bendy-strawesque terminals and the deep ink traps. (I'm a sucker for ink traps!)
+  Neue Machina is a punchy sans serif with monospace qualities and a ton of character. There are just too many lovely quirks to point out, so I'll only mention the bendy-strawesque terminals and the deep ink traps. (I'm a sucker for ink traps!)
 
-  PangramPangram calls it a a font "suited for the future of technology" and I'll gladly take that to include the future of digital journalism as well.
+  PangramPangram calls it a font "suited for the future of technology" and I'll poetically take that to include the future of digital journalism as well.
 
----
-
-Built with [Puppy](https://github.com/Upstatement/puppy) and hosted by [Netlify](https://www.netlify.com/) from quarantine, summer/fall 2020.
