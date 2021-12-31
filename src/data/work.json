@@ -64,11 +64,11 @@
         "type": ["Full-stack dev", "Design", "Publishing", "Identity"],
         "tools": []
       },
-      "date": "Jun 21",
+      "date": "May 21",
       "imageUrl": "img/projects/thelongread.jpg",
       "alt": "The Long Read",
-      "link": "https://interactives.stuff.co.nz/the-long-read-podcast/",
-      "externalLink": true
+      "link": "/the-long-read",
+      "externalLink": false
     },
     {
       "id": "just-love",

@@ -1,0 +1,76 @@
+---
+title: Alex Lim
+---
+
+
+{% extends "@templates/layouts/base.twig" %}
+
+{% set config = site.data['menu.json'] %}
+
+{% block meta %}
+<meta property='og:title' content='The Long Read'/>
+<meta property='og:image' content='/static/img/tracking-social-card.png'/>
+<meta property='og:description' content='Documenting the spread of covid in the U.S.'/>
+<meta property='og:url' content='https://alexanderlim.io/covid-tracking'/>
+{% endblock %}
+
+{% set project = {
+  'title': 'The Long Read podcast',
+  'details': [
+    {
+      'label': 'Affiliation',
+      'content': ['Stuff', 'May 21']
+    },
+    {
+      'label': 'Roles',
+      'content': ['Full-stack dev', 'Design', 'Publishing', "Visual identity"]
+    },
+    {
+      'label': 'Tools',
+      'content': ['Vue/Nuxt.js', 'Google Sheets', 'Github Actions']
+    }
+  ],
+  'trackers': [
+    {
+      'text': 'Homepage',
+      'url': 'https://interactives.stuff.co.nz/the-long-read-podcast/'
+    },
+    {
+      'text': 'Podcast (Spotify)',
+      'url': 'https://open.spotify.com/show/5AvhsIT8Dve4St3UAnwKrl'
+    }
+  ]
+}
+%}
+
+{% block content %}
+
+<section class="caseStudy covid-tracking">
+  {% include '@templates/partials/case-study/case-study-header.twig' with {'title': 'Coronavirus Tracking'} %}
+
+  <div class="caseStudy__intro">
+    <div class="caseStudy__links">
+      <label>Links</label>
+      <ul>
+
+      {% for link in project.trackers %}
+        <li>
+          <a href="{{ link.url }}" target="_blank">{{ link.text }}</a>
+        </li>
+      {% endfor %}
+
+      </ul>
+    </div>
+    <div class="caseStudy__intro-text">
+      <img src={{ puppy.staticUrl('img/the-long-read/tlr-collage.png') }} />
+      <h3>Building the home and look for <i>Stuff&rsquo;s</i> new podcast</h3>
+      <p><i>Stuff</i> expanded its audio footprint in 2020, launching several new podcasts and its new series <i>The Long Read</i>. Needing an identity and a homepage to live on, this was a first-of-a-kind project for the Projects team, and a first for me as well. I designed and developed a digital presence for <i>TLR</i> using Vue/Nuxt.js as well as the auto-publishing workflow, powered by Google Sheets and Github Actions, to support its ongoing production. The result is a low-maintenence microsite that has proven the success of both auto-publishing systems and a new JavaScript framework for our team to consider for future off-template initiatives.</p>
+    </div>
+  </div>
+
+  <div class="caseStudy__nav">
+    <a href="/#work">&larr; Back to featured work</a>
+  </div>
+</section>
+
+{% endblock %}
