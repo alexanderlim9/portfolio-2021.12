@@ -1,0 +1,73 @@
+---
+title: Alex Lim
+---
+
+
+{% extends "@templates/layouts/base.twig" %}
+
+{% set config = site.data['menu.json'] %}
+
+{% block meta %}
+<meta property='og:title' content='Climate worriers'/>
+<meta property='og:image' content='/static/img/tracking-social-card.png'/>
+<meta property='og:description' content='Documenting the spread of covid in the U.S.'/>
+<meta property='og:url' content='https://alexanderlim.io/covid-tracking'/>
+{% endblock %}
+
+{% set project = {
+  'title': 'Climate worriers',
+  'details': [
+    {
+      'label': 'Affiliation',
+      'content': ['Stuff', 'Mar 21']
+    },
+    {
+      'label': 'Roles',
+      'content': ['Print design', 'Digital design', 'Data visualisation']
+    },
+    {
+      'label': 'Tools',
+      'content': ['InDesign', 'RAWGraphs', 'Figma', 'Shorthand']
+    }
+  ],
+  'trackers': [
+    {
+      'text': 'Digital interactive',
+      'url': 'https://interactives.stuff.co.nz/2021/03/climate-worriers/'
+    }
+  ]
+}
+%}
+
+{% block content %}
+
+<section class="caseStudy">
+  {% include '@templates/partials/case-study/case-study-header.twig' with {'title': 'Coronavirus Tracking'} %}
+
+  <div class="caseStudy__intro">
+    <div class="caseStudy__links">
+      <label>Links</label>
+      <ul>
+
+      {% for link in project.trackers %}
+        <li>
+          <a href="{{ link.url }}" target="_blank">{{ link.text }}</a>
+        </li>
+      {% endfor %}
+
+      </ul>
+    </div>
+    <div class="caseStudy__intro-text">
+      <img src={{ puppy.staticUrl('img/projects/climateworriers.jpg') }} />
+      <h3>A generational shift in climate anxiety, across print and digital</h3>
+      <p>This was my first-ever published print piece and the first time I've translated a story across mediums. As much as I love pushing pixels, I appreciate the comfort and certainty print design affords. I certainly got a kick out of throwing the negative space in the charts over the gutter.</p>
+      <p>The print deadline came first and was followed quickly by the interactive, both tight turnarounds. The interactive walks through each chart in a more step-by-step manner using standard Shorthand features. The story, overall, was a feature of the March 2021 edition of <i>Stuff's</i> <a href="https://www.stuff.co.nz/environment/climate-news" target="_blank">Forever Project</a> climate magazine.</p>
+    </div>
+  </div>
+
+  <div class="caseStudy__nav">
+    <a href="/#work">&larr; Back to featured work</a>
+  </div>
+</section>
+
+{% endblock %}

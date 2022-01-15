@@ -3,7 +3,7 @@
     {
       "id": "docs-for-vax",
       "title": "We, the 6535 signed",
-      "description": "NZ Doctors stand up for vaccination.",
+      "description": "NZ Doctors stand up for vaccination",
       "tags": {
         "type": ["Front-end dev", "Design"],
         "tools": []
@@ -17,7 +17,7 @@
     {
       "id": "akl-lockdown",
       "title": "The tale of two pandemics",
-      "description": "Auckland, lockdowns and Delta.",
+      "description": "Auckland, lockdowns and Delta",
       "tags": {
         "type": ["Front-end dev", "Design"],
         "tools": []
@@ -31,7 +31,7 @@
     {
       "id": "tokyo-uniforms",
       "title": "Inside the sketchbooks of NZ&rsquo;s budding fashion designers",
-      "description": "A pre-Tokyo dive into NZ&rsquo;s olympic uniforms.",
+      "description": "A pre-Tokyo dive into NZ&rsquo;s olympic uniforms",
       "tags": {
         "type": ["Reporting", "Production", "Design"],
         "tools": []
@@ -45,7 +45,7 @@
     {
       "id": "oap",
       "title": "Once a Panther",
-      "description": "Podcast landing page, context and history.",
+      "description": "Podcast landing page, context and history",
       "tags": {
         "type": ["Front-end dev", "Design", "Identity"],
         "tools": []
@@ -59,7 +59,7 @@
     {
       "id": "tlr",
       "title": "The Long Read",
-      "description": "Homepage, identity and automating publishing workflows.",
+      "description": "Homepage, identity and automating publishing workflows",
       "tags": {
         "type": ["Full-stack dev", "Design", "Publishing", "Identity"],
         "tools": []
@@ -71,9 +71,23 @@
       "externalLink": false
     },
     {
+      "id": "climate",
+      "title": "Climate worriers",
+      "description": "A generational shift, told across mediums",
+      "tags": {
+        "type": ["Print/digital design", "Data viz"],
+        "tools": []
+      },
+      "date": "Mar 21",
+      "imageUrl": "img/projects/climateworriers.jpg",
+      "alt": "Magazine spread of the Climate worriers story featuring a prominent data visualisation overlaid on a cloudy sky",
+      "link": "/climate-worriers",
+      "externalLink": false
+    },
+    {
       "id": "just-love",
       "title": "Koia te aroha:  Ngā pāpā Māori",
-      "description": "Just love: Māori dads.",
+      "description": "Just love: Māori dads",
       "tags": {
         "type": ["Front-end dev", "Design"],
         "tools": []
@@ -87,7 +101,7 @@
     {
       "id": "our-truth",
       "title": "Our Truth, Tā Mātou Pono",
-      "description": "Challenging the history of New Zealand.",
+      "description": "Challenging the history of New Zealand",
       "tags": {
         "type": ["Front-end dev", "Design", "Illustration"],
         "tools": []
@@ -115,7 +129,7 @@
     {
       "id": "print",
       "title": "Print & Information Design",
-      "description": "Building visual systems to span books, bags and billboards.",
+      "description": "Building visual systems to span books, bags and billboards",
       "tags": {
         "type": ["Print design", "Art direction"],
         "tools": ["Adobe Creative Suite"]
@@ -129,7 +143,7 @@
     {
       "id": "panama",
       "title": "Panama Up Close",
-      "description": "Stories from Panama reported by student journalists.",
+      "description": "Stories from Panama reported by student journalists",
       "tags": {
         "type": ["Front-end dev", "Design"],
         "tools": ["CSS"]
@@ -142,7 +156,7 @@
     },
     {
       "title": "Concerts - Digital Garden",
-      "description": "Saving past concerts for rainy days.",
+      "description": "Saving past concerts for rainy days",
       "tags": {
         "type": ["Full-stack dev", "Design"]
       },
@@ -155,7 +169,7 @@
     {
       "id": "arnold",
       "title": "Arnold Ventures",
-      "description": "Putting philanthropy in context through data.",
+      "description": "Putting philanthropy in context through data",
       "tags": {
         "type": ["Data viz", "Design", "Front-end dev"],
         "tools": ["D3.js"]
@@ -169,7 +183,7 @@
     {
       "id": "parkland",
       "title": "Since Parkland",
-      "description": "Communicating the scale of America’s gun violence epidemic.",
+      "description": "Communicating the scale of America’s gun violence epidemic",
       "tags": {
         "type": ["Full-stack dev", "Design"],
         "tools": ["Jekyll", "Airtable"]
@@ -182,7 +196,7 @@
     },
     {
       "title": "The Valedictorians Project",
-      "description": "What became of Boston’s brightest.",
+      "description": "What became of Boston’s brightest",
       "tags": {
         "type": ["Reporting/Research"]
       },
