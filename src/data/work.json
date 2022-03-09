@@ -1,6 +1,34 @@
 {
   "featured": [
     {
+      "id": "camp-freedom",
+      "title": "The Collapse of Camp Freedom",
+      "description": "How the occupation of New Zealand's Parliament grounds came to an end",
+      "tags": {
+        "type": ["Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "Mar 22",
+      "imageUrl": "img/projects/protests.jpg",
+      "alt": "A tent burning on New Zealand's Parliament grounds with a plume of black smoke. Protesters look on.",
+      "link": "https://interactives.stuff.co.nz/2022/03/the-collapse-of-camp-freedom/",
+      "externalLink": true
+    },
+    {
+      "id": "disordered",
+      "title": "Disordered",
+      "description": "An investigation into fetal alcohol spectrum disorder (FASD) in NZ",
+      "tags": {
+        "type": ["Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "Mar 22",
+      "imageUrl": "img/projects/disordered.jpg",
+      "alt": "Four panels of street art, each with a wheatpasted portrait of a subject from the documentary and one of the letters F, A, S, D.",
+      "link": "https://interactives.stuff.co.nz/2022/03/circuit/disordered-fasd-new-zealand-alcohol-disability/",
+      "externalLink": true
+    },
+    {
       "id": "docs-for-vax",
       "title": "We, the 6535 signed",
       "description": "NZ Doctors stand up for vaccination",
@@ -139,32 +167,6 @@
       "alt": "Book spread displays two charts on media trust data",
       "link": "/print-design",
       "externalLink": false
-    },
-    {
-      "id": "panama",
-      "title": "Panama Up Close",
-      "description": "Stories from Panama reported by student journalists",
-      "tags": {
-        "type": ["Front-end dev", "Design"],
-        "tools": ["CSS"]
-      },
-      "date": "May 20",
-      "imageUrl": "img/projects/panama.jpg",
-      "alt": "Small tropical bird in a rainforest with the title 'panama up close'",
-      "link": "https://panamaupclose.com/",
-      "externalLink": true
-    },
-    {
-      "title": "Concerts - Digital Garden",
-      "description": "Saving past concerts for rainy days",
-      "tags": {
-        "type": ["Full-stack dev", "Design"]
-      },
-      "date": "Jul 19",
-      "imageUrl": "img/projects/concerts.jpg",
-      "alt": "Music artist names over a concert performance with bright red lights",
-      "link": "https://github.com/alexanderlim9/concerts#readme",
-      "externalLink": true
     },
     {
       "id": "arnold",
