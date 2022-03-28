@@ -1,9 +1,23 @@
 {
-  "featured": [
+  "featured": [    
+    {
+      "id": "ross-taylor",
+      "title": "This is Ross Taylor",
+      "description": "Tracing back the cricket legend’s career",
+      "tags": {
+        "type": ["Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "Mar 22",
+      "imageUrl": "img/projects/rosstaylor.jpg",
+      "alt": "Photo collage of Ross Taylor throughout his career",
+      "link": "https://interactives.stuff.co.nz/2022/03/ross-taylor-black-caps-batsman/",
+      "externalLink": true
+    },
     {
       "id": "camp-freedom",
       "title": "The Collapse of Camp Freedom",
-      "description": "How the occupation of New Zealand's Parliament grounds came to an end",
+      "description": "How the occupation of New Zealand’s Parliament grounds came to an end",
       "tags": {
         "type": ["Front-end dev", "Design"],
         "tools": []
