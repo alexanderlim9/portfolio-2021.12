@@ -1,5 +1,19 @@
 {
-  "featured": [    
+  "featured": [
+    {
+      "id": "dashboard",
+      "title": "Covid-19 Dashboard",
+      "description": "Stuff’s new hub for tracking the pandemic",
+      "tags": {
+        "type": ["Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "May 22",
+      "imageUrl": "img/projects/dashboard.jpg",
+      "alt": "Covid-19 in New Zealand",
+      "link": "https://interactives.stuff.co.nz/2022/covid-19-cases-new-zealand/",
+      "externalLink": true
+    },
     {
       "id": "ross-taylor",
       "title": "This is Ross Taylor",
@@ -167,7 +181,7 @@
       "alt": "Various NYT covid tracking pages",
       "link": "/covid-tracking",
       "externalLink": false
-    },    
+    },
     {
       "id": "print",
       "title": "Print & Information Design",
