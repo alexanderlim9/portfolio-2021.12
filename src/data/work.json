@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "impact",
+      "title": "Stuff’s 2022 Impact Report",
+      "description": "Some of the ways Stuff has made a positive impact in the lives of New Zealanders",
+      "tags": {
+        "type": ["Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "Jun 22",
+      "imageUrl": "img/projects/impactreport.jpg",
+      "alt": "Follow No One - Stuff",
+      "link": "https://interactives.stuff.co.nz/2022/impact-report/",
+      "externalLink": true
+    },
+    {
       "id": "dashboard",
       "title": "Covid-19 Dashboard",
       "description": "Stuff’s new hub for tracking the pandemic",
