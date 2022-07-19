@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "chase",
+      "title": "The thrill of The Chase",
+      "description": "An interactive, number-crunching quiz show quiz",
+      "tags": {
+        "type": ["Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "Jul 22",
+      "imageUrl": "img/projects/chase.jpg",
+      "alt": "The six chasers from The Chase UK game show",
+      "link": "https://interactives.stuff.co.nz/2022/07/the-chase-game-show-statistics/",
+      "externalLink": true
+    },
+    {
       "id": "impact",
       "title": "Stuff’s 2022 Impact Report",
       "description": "Some of the ways Stuff has made a positive impact in the lives of New Zealanders",
