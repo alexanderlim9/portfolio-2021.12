@@ -32,6 +32,14 @@
       padding-left: 12px;
     }
   }
+  a {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .about__bio-photo {
