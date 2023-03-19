@@ -1,6 +1,90 @@
 {
   "featured": [
     {
+      "id": "landslide",
+      "title": "Landslide hit Malaysia campsite: What we know so far",
+      "description": "",
+      "tags": {
+        "type": ["Research"],
+        "tools": []
+      },
+      "date": "Dec 22",
+      "imageUrl": "img/projects/landslide.webp",
+      "alt": "",
+      "link": "https://www.straitstimes.com/multimedia/graphics/2022/12/malaysia-genting-landslide/index.html",
+      "externalLink": true
+    },
+    {
+      "id": "inflation",
+      "title": "Singapore Inflation Calculator",
+      "description": "",
+      "tags": {
+        "type": ["Data viz", "Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "Dec 22",
+      "imageUrl": "img/projects/inflation.webp",
+      "alt": "",
+      "link": "https://www.straitstimes.com/multimedia/graphics/2022/12/singapore-personal-inflation-calculator/index.html",
+      "externalLink": true
+    },
+    {
+      "id": "worldcup",
+      "title": "World Cup 2022: Goal of the Day Game",
+      "description": "",
+      "tags": {
+        "type": ["Front-end dev", "Production"],
+        "tools": []
+      },
+      "date": "Nov 22",
+      "imageUrl": "img/projects/worldcup.webp",
+      "alt": "",
+      "link": "https://www.straitstimes.com/multimedia/graphics/2022/11/qatar-2022-goal-of-the-day-game/index.html",
+      "externalLink": true
+    },
+    {
+      "id": "crowdcrush",
+      "title": "South Korea Halloween crowd crush: How the tragedy unfolded",
+      "description": "",
+      "tags": {
+        "type": ["Research", "Graphics"],
+        "tools": []
+      },
+      "date": "Oct 22",
+      "imageUrl": "img/projects/crowdcrush.webp",
+      "alt": "",
+      "link": "https://www.straitstimes.com/multimedia/graphics/2022/10/south-korea-crowd-crush-halloween/index.html",
+      "externalLink": true
+    },
+    {
+      "id": "finance",
+      "title": "Are you financially fit?",
+      "description": "",
+      "tags": {
+        "type": ["Front-end dev", "Design"],
+        "tools": []
+      },
+      "date": "Oct 22",
+      "imageUrl": "img/projects/finance.webp",
+      "alt": "",
+      "link": "https://www.straitstimes.com/multimedia/graphics/2022/10/money-financial-health-test/index.html",
+      "externalLink": true
+    },
+    {
+      "id": "stampede",
+      "title": "Indonesia football stampede: What led to the tragedy",
+      "description": "",
+      "tags": {
+        "type": ["Research", "Graphics"],
+        "tools": []
+      },
+      "date": "Oct 22",
+      "imageUrl": "img/projects/stampede.webp",
+      "alt": "",
+      "link": "https://www.straitstimes.com/multimedia/graphics/2022/10/indonesia-football-stampede/index.html",
+      "externalLink": true
+    },
+    {
       "id": "chase",
       "title": "The thrill of The Chase",
       "description": "An interactive, number-crunching quiz show quiz",
