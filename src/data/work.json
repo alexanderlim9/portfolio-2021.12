@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "seagames",
+      "title": "How Singapore won 1,000 SEA Games golds",
+      "description": "",
+      "tags": {
+        "type": ["Data analysis/viz", "Design"],
+        "tools": []
+      },
+      "date": "May 23",
+      "imageUrl": "img/projects/seagames.jpg",
+      "alt": "",
+      "link": "https://www.straitstimes.com/multimedia/graphics/2023/05/singapore-sea-games-1000-gold-medals/index.html",
+      "externalLink": true
+    },
+    {
       "id": "landslide",
       "title": "Landslide hit Malaysia campsite: What we know so far",
       "description": "",
