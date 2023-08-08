@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "sgcolour",
+      "title": "Singapore in Colour",
+      "description": "",
+      "tags": {
+        "type": ["Concept", "Design/viz", "Writing"],
+        "tools": []
+      },
+      "date": "Aug 23",
+      "imageUrl": "img/projects/sgcolour.jpg",
+      "alt": "",
+      "link": "https://www.straitstimes.com/multimedia/graphics/2023/08/singapore-in-colour/index.html",
+      "externalLink": true
+    },
+    {
       "id": "seagames",
       "title": "How Singapore won 1,000 SEA Games golds",
       "description": "",
