@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "shanti",
+      "title": "Shanti Pereira: How Singapore’s finest sprinter found her speed",
+      "description": "",
+      "tags": {
+        "type": ["Front-end dev"],
+        "tools": []
+      },
+      "date": "Sep 23",
+      "imageUrl": "img/projects/shanti.jpg",
+      "alt": "",
+      "link": "https://www.straitstimes.com/multimedia/graphics/2023/09/shanti-pereira-sprint-graphics/index.html",
+      "externalLink": true
+    },
+    {
       "id": "sgcolour",
       "title": "Singapore in Colour",
       "description": "",
