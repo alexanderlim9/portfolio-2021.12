@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "xmas",
+      "title": "Unbox some Christmas cheer",
+      "description": "",
+      "tags": {
+        "type": ["Art Direction", "Design", "Front-end dev"],
+        "tools": []
+      },
+      "date": "Dec 23",
+      "imageUrl": "img/projects/xmas23.avif",
+      "alt": "",
+      "link": "https://www.straitstimes.com/multimedia/graphics/2023/12/unbox-some-christmas-cheer/index.html?shell",
+      "externalLink": true
+    },
+    {
       "id": "cop28",
       "title": "Our data problems are getting harder to ignore",
       "description": "",
