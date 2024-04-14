@@ -19,6 +19,12 @@
   font-weight: 500;
   line-height: 28px;
   margin: 0;
+
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: underline;
+  }
 }
 
 /*

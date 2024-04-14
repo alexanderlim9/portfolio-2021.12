@@ -1,6 +1,62 @@
 {
   "featured": [
     {
+      "id": "cozzielivs",
+      "title": "We compared the finances of 30-year-olds now, to 30-year-olds 30 years ago",
+      "description": "",
+      "tags": {
+        "type": ["Design"],
+        "tools": []
+      },
+      "date": "Mar 24",
+      "imageUrl": "img/projects/cozzielivs.jpeg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2024-03-28/data-on-30-year-old-australians-shows-financial-hardship/103528726",
+      "externalLink": true
+    },
+    {
+      "id": "policing",
+      "title": "How proactive policing quotas sent NSW police searches soaring",
+      "description": "",
+      "tags": {
+        "type": ["Design", "Illustration"],
+        "tools": []
+      },
+      "date": "Mar 24",
+      "imageUrl": "img/projects/policing.jpeg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2024-03-18/how-proactive-policing-quotas-sent-nsw-police-searches-soaring/103579210",
+      "externalLink": true
+    },
+    {
+      "id": "beaumaris",
+      "title": "‘The truth needs to be told’",
+      "description": "",
+      "tags": {
+        "type": ["Design"],
+        "tools": []
+      },
+      "date": "Feb 24",
+      "imageUrl": "img/projects/beaumaris.jpeg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2024-02-27/beaumaris-primary-inquiry-scratches-surface-of-paedophile-crisis/103503912",
+      "externalLink": true
+    },
+    {
+      "id": "tax1",
+      "title": "How the revised tax cuts affect people like you",
+      "description": "",
+      "tags": {
+        "type": ["Design"],
+        "tools": []
+      },
+      "date": "Feb 24",
+      "imageUrl": "img/projects/tax1.jpeg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2024-02-02/biggest-winners-and-losers-of-revised-stage-3-tax-cuts/103415830",
+      "externalLink": true
+    },
+    {
       "id": "xmas",
       "title": "Unbox some Christmas cheer",
       "description": "",
