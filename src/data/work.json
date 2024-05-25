@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "mullets",
+      "title": "The ‘big boof’ is out. What data reveals about football’s hair trends",
+      "description": "",
+      "tags": {
+        "type": ["Reporting", "Data + viz", "Design"],
+        "tools": []
+      },
+      "date": "May 24",
+      "imageUrl": "img/projects/mullets.jpeg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2024-05-23/afl-mullet-count-data-analysis/103850072",
+      "externalLink": true
+    },
+    {
       "id": "cozzielivs",
       "title": "We compared the finances of 30-year-olds now, to 30-year-olds 30 years ago",
       "description": "",
