@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "nswpolicedv",
+      "title": "'Inexcusable failure': Damning report on one police force reflects the failures of another",
+      "description": "",
+      "tags": {
+        "type": ["Data viz", "Design"],
+        "tools": []
+      },
+      "date": "Jun 24",
+      "imageUrl": "img/projects/nswpolicedv.jpeg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2024-06-06/nsw-police-failures-to-properly-investigate-domestic-violence/103927244",
+      "externalLink": true
+    },
+    {
       "id": "mullets",
       "title": "The ‘big boof’ is out. What data reveals about football’s hair trends",
       "description": "",
@@ -16,7 +30,7 @@
     },
     {
       "id": "cozzielivs",
-      "title": "We compared the finances of 30-year-olds now, to 30-year-olds 30 years ago",
+      "title": "Financial data reveals if 30-year-old millennials are worse off than their parents",
       "description": "",
       "tags": {
         "type": ["Design"],
