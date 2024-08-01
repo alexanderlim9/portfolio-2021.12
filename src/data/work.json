@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "superweapons",
+      "title": "'Totally immoral' weapons found in share holdings of Australian ethical super funds",
+      "description": "",
+      "tags": {
+        "type": ["Design"],
+        "tools": []
+      },
+      "date": "Jul 24",
+      "imageUrl": "img/projects/superweapons.jpeg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2024-07-01/ethical-super-savings-found-in-controversial-weapons-makers-/104015686",
+      "externalLink": true
+    },
+    {
       "id": "nswpolicedv",
       "title": "'Inexcusable failure': Damning report on one police force reflects the failures of another",
       "description": "",
