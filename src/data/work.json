@@ -1,8 +1,50 @@
 {
   "featured": [
     {
+      "id": "solar",
+      "title": "The solar rush is here and its taking over the world",
+      "description": "",
+      "tags": {
+        "type": ["Design", "Graphics"],
+        "tools": []
+      },
+      "date": "Dec 24",
+      "imageUrl": "img/projects/solar.gif",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2024-12-18/survey-of-the-worlds-solar-shows-global-boom/104006096",
+      "externalLink": true
+    },
+    {
+      "id": "heatwave",
+      "title": "Australia’s deadliest natural disaster is a 2009 heatwave",
+      "description": "",
+      "tags": {
+        "type": ["Graphics", "Illustration"],
+        "tools": []
+      },
+      "date": "Dec 24",
+      "imageUrl": "img/projects/heatwave.jpeg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2024-12-17/heatwave-of-2009-australias-deadliest-natural-disaster/104648912",
+      "externalLink": true
+    },
+    {
+      "id": "cyclone",
+      "title": "A cyclone destroyed Darwin and changed the way we build",
+      "description": "",
+      "tags": {
+        "type": ["Illustration"],
+        "tools": []
+      },
+      "date": "Dec 24",
+      "imageUrl": "img/projects/tracy.jpg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2024-12-09/cylone-tracy-changed-how-be-build-homes-in-australia/104559508",
+      "externalLink": true
+    },
+    {
       "id": "superweapons",
-      "title": "'Totally immoral' weapons found in share holdings of Australian ethical super funds",
+      "title": "‘Ethical super funds’ are actually investing in weapons of war",
       "description": "",
       "tags": {
         "type": ["Design"],
@@ -16,7 +58,7 @@
     },
     {
       "id": "nswpolicedv",
-      "title": "'Inexcusable failure': Damning report on one police force reflects the failures of another",
+      "title": "171 cases of NSW police failing domestic violence victims",
       "description": "",
       "tags": {
         "type": ["Data viz", "Design"],
@@ -30,7 +72,7 @@
     },
     {
       "id": "mullets",
-      "title": "The ‘big boof’ is out. What data reveals about football’s hair trends",
+      "title": "The mullet is alive and well in AFL",
       "description": "",
       "tags": {
         "type": ["Reporting", "Data + viz", "Design"],
