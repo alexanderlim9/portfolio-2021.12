@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "bushfire",
+      "title": "Gaming software can help us better understand bushfires",
+      "description": "",
+      "tags": {
+        "type": ["Graphics", "Illustration", "Editing"],
+        "tools": []
+      },
+      "date": "Jan 25",
+      "imageUrl": "img/projects/bushfire.gif",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2025-01-19/visualising-the-bushfires-of-tomorrow/104758748",
+      "externalLink": true
+    },
+    {
       "id": "solar",
       "title": "The solar rush is here and its taking over the world",
       "description": "",
