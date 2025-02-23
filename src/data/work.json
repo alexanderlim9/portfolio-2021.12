@@ -1,6 +1,20 @@
 {
   "featured": [
     {
+      "id": "ferry",
+      "title": "Building the world’s largest electric ferry",
+      "description": "",
+      "tags": {
+        "type": ["Design"],
+        "tools": []
+      },
+      "date": "Feb 25",
+      "imageUrl": "img/projects/ferry.gif",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2025-02-22/building-the-worlds-largest-electric-ferry/104894884",
+      "externalLink": true
+    },
+    {
       "id": "bushfire",
       "title": "Gaming software can help us better understand bushfires",
       "description": "",
