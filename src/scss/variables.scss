@@ -29,7 +29,7 @@ $ff-serif: 'Noort', Georgia, serif;
 $ff-sans: 'Neue Machina', Helvetica, Arial, sans-serif;
 
 @mixin three-column-grid {
-  column-gap: 3rem;
+  column-gap: 30px;
   display: grid;
   grid-template-columns: 1fr;
 
