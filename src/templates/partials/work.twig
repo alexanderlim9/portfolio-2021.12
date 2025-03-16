@@ -21,7 +21,7 @@
     </div>
   </div> #}
   <ul class="work__project-list list" id="projectList">
-    {% for project in work.featured %}
+    {% for project in work.projects %}
       <li class="work__project-list-item" data-order="{{ loop.index }}"href={{ project.link }} target="_blank">
 
       {% if project.externalLink == true %}
