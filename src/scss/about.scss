@@ -3,18 +3,13 @@
 }
 
 .about__bio {
-  display: flex;
-  flex-direction: column-reverse;
   margin-bottom: 50px;
 
   @media (min-width: $bp-sm) {
-    column-gap: 3rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    column-count: 2;
+    column-gap: 30px;
   }
-}
 
-.about__bio-content {
   p {
     font-size: 0.9rem;
     hyphens: auto;
