@@ -1,6 +1,20 @@
 {
   "projects": [
     {
+      "id": "nuclear",
+      "title": "What do more renewables mean for our electricity system?",
+      "description": "",
+      "tags": {
+        "type": ["Graphics", "Illustration", "Dev"],
+        "tools": []
+      },
+      "date": "Feb 25",
+      "imageUrl": "img/projects/nuclear.jpeg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2025-04-26/renewables-versus-nuclear-in-evolving-energy-grid/104800790",
+      "externalLink": true
+    },
+    {
       "id": "ferry",
       "title": "Building the world’s largest electric ferry",
       "description": "",
