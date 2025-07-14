@@ -1,6 +1,20 @@
 {
   "projects": [
     {
+      "id": "rainfall",
+      "title": "What turns heavy rain into a major flood?",
+      "description": "",
+      "tags": {
+        "type": ["Graphics", "Illustration"],
+        "tools": []
+      },
+      "date": "May 25",
+      "imageUrl": "img/projects/rainfall.gif",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2025-05-24/how-much-rain-in-nsw-and-how-did-it-lead-to-flooding/105314358",
+      "externalLink": true
+    },
+    {
       "id": "nuclear",
       "title": "What do more renewables mean for our electricity system?",
       "description": "",
