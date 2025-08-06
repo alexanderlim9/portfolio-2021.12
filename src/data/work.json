@@ -1,6 +1,20 @@
 {
   "projects": [
     {
+      "id": "v2g",
+      "title": "EVs could power your home or the grid, but some car brands object",
+      "description": "",
+      "tags": {
+        "type": ["3D modelling", "Graphics"],
+        "tools": []
+      },
+      "date": "Aug 25",
+      "imageUrl": "img/projects/v2g.avif",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2025-08-04/v2g-vehicle-to-grid-charging-faces-roadblocks/105586552",
+      "externalLink": true
+    },
+    {
       "id": "rainfall",
       "title": "What turns heavy rain into a major flood?",
       "description": "",
