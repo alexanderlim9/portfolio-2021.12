@@ -1,6 +1,20 @@
 {
   "projects": [
     {
+      "id": "electrostate",
+      "title": "Why China is becoming the world’s first electrostate",
+      "description": "",
+      "tags": {
+        "type": ["Photo illustration", "Graphics"],
+        "tools": []
+      },
+      "date": "Aug 25",
+      "imageUrl": "img/projects/electrostate.jpg",
+      "alt": "",
+      "link": "https://www.abc.net.au/news/2025-08-13/china-turns-into-electrostate-after-staggering-renewable-growth/105555850",
+      "externalLink": true
+    },
+    {
       "id": "v2g",
       "title": "EVs could power your home or the grid, but some car brands object",
       "description": "",
